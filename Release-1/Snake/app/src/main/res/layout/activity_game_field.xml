@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GameFieldActivity">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="3dp"
+            android:layout_margin="3dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/score"
+                android:textColor="@color/black"
+
+                android:textSize="24dp">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/num_of_scores"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ProgressBar
+                    android:id="@+id/change_labyrinths_indicator"
+                    style="@style/ProgressBarInGame"
+                    android:indeterminate="false"
+                    android:visibility="invisible"
+                    android:progressDrawable="@drawable/change_laby_indicator">
+
+                </ProgressBar>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ProgressBar
+                    android:id="@+id/bonus_food_indicator"
+                    style="@style/ProgressBarInGame"
+                    android:indeterminate="false"
+                    android:progressDrawable="@drawable/bonus_food_indicator"
+                    android:visibility="invisible">
+
+                </ProgressBar>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.example.snake2.Field
+        android:id="@+id/field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_margin="7dp"
+        >
+
+    </com.example.snake2.Field>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="2"
+        android:background="@drawable/gamepad_background">
+
+        <ImageButton
+            android:id="@+id/left"
+            style="@style/GamepadButtons"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/arrow_l"
+            >
+
+        </ImageButton>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/top"
+                style="@style/GamepadButtons"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/arrow_t">
+
+
+            </ImageButton>
+
+            <ImageButton
+                android:id="@+id/bottom"
+                style="@style/GamepadButtons"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/arrow_b"
+                >
+
+            </ImageButton>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/right"
+            style="@style/GamepadButtons"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/arrow_r"
+            >
+
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>

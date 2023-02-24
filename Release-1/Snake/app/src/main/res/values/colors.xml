@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="start_screen">#168004</color>
+    <color name="green_main">#00cc00</color>
+    <color name="green_one">#80ea69</color>
+    <color name="green_two">#59ea3a</color>
+    <color name="green_three">#3da028</color>
+    <color name="green_four">#188a00</color>
+    <color name="green_five">#186a00</color>
+    <color name="yellow_main">#ffce00</color>
+    <color name="yellow_one">#ffe473</color>
+    <color name="yellow_two">#ffda40</color>
+    <color name="yellow_three">#bfa430</color>
+    <color name="yellow_four">#a68600</color>
+    <color name="blue_main">#0000cc</color>
+    <color name="blue_one">#6666ff</color>
+    <color name="blue_two">#644ad8</color>
+    <color name="blue_three">#3515b0</color>
+    <color name="blue_four">#1b0773</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="body_snake">#ff4c00</color>
+    <color name="orange">#ff4100</color>
+    <color name="gray5">#505050</color>
+    <color name="eat">#800080</color>
+    <color name="head_snake">#ff0000</color>
+    <color name="text_score_after_finish">#800000</color>
+    <color name="gold">#ffd700</color>
+    <color name="silver">#c0c0c0</color>
+    <color name="bronze">#cd7f32</color>
+</resources>

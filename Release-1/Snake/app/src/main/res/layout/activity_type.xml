@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TypeActivity">
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_without_labyrinth"
+            style="@style/RadioButton"
+            android:text="@string/without_labyrinth" />
+
+        <RadioButton
+            android:id="@+id/radio_box_labyrinth"
+            style="@style/RadioButton"
+            android:text="@string/box_labyrinth" />
+
+        <RadioButton
+            android:id="@+id/radio_tunnel_labyrinth"
+            style="@style/RadioButton"
+            android:text="@string/tunnel_labyrinth" />
+
+        <RadioButton
+            android:id="@+id/radio_mill_labyrinth"
+            style="@style/RadioButton"
+            android:text="@string/mill_labyrinth" />
+
+        <RadioButton
+            android:id="@+id/radio_room_labyrinth"
+            style="@style/RadioButton"
+            android:text="@string/room_labyrinth" />
+
+        <RadioButton
+            android:id="@+id/radio_change_labyrinths"
+            style="@style/RadioButton"
+            android:text="@string/change_labyrinths" />
+    </RadioGroup>
+</LinearLayout>

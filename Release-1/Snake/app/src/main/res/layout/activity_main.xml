@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/mainLL">
+
+    <Button
+        android:id="@+id/new_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        style="@style/MainButton"
+        />
+
+    <Button
+        android:id="@+id/type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/type"
+        style="@style/MainButton"/>
+
+    <Button
+        android:id="@+id/speed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/speed"
+        style="@style/MainButton" />
+
+    <Button
+        android:id="@+id/records"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/records"
+        style="@style/MainButton"/>
+
+    <Button
+        android:id="@+id/options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/options"
+        style="@style/MainButton"/>
+
+    <Button
+        android:id="@+id/about_program"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_program"
+        style="@style/MainButton"/>
+</LinearLayout>

@@ -1,0 +1,113 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/blue_main</item>
+        <item name="colorPrimaryDark">@color/blue_four</item>
+        <item name="colorAccent">@color/green_four</item>
+        <item name="android:windowBackground">@drawable/main_background_1</item>
+    </style>
+
+    <style name="MainButton" parent="@style/Widget.AppCompat.Button">
+        <item name="colorButtonNormal">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="RecordsButton" parent="@style/MainButton">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:alpha">0.8</item>
+    </style>
+
+    <style name="RadioButton" parent="@style/MainButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:alpha">0.8</item>
+        <item name="android:background">@drawable/radiobutton</item>
+        <item name="android:textColor">@drawable/radiobutton_text</item>
+        <item name="android:button">@null</item>
+    </style>
+
+    <style name="GamepadButtons" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="TextViewInOptions" parent="@style/Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textSize">24dp</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">70dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_weight">2</item>
+    </style>
+
+    <style name="TextViewInTableOfRecordsForPlaces" parent="@style/Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextViewInTableOfRecordsForScores" parent="@style/Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:padding">15dp</item>
+    </style>
+
+    <style name="TextViewInAboutProgram" parent="@style/Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textSize">20dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="color">@color/black</item>
+    </style>
+
+    <style name="TextViewInText2" parent="@style/Widget.AppCompat.TextView.SpinnerItem">
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_score_after_finish</item>
+    </style>
+
+    <style name="ToggleButtonInOptions" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ButtonInSpeed" parent="@style/Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="ProgressBarInGame" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:max">100</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:minHeight">20dp</item>
+        <item name="android:maxHeight">20dp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

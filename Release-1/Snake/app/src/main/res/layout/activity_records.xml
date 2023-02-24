@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RecordsActivity">
+
+    <Button
+        android:id="@+id/all_records"
+        style="@style/RecordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/all_records" />
+
+    <Button
+        android:id="@+id/without_labyrinth"
+        style="@style/RecordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/without_labyrinth" />
+
+    <Button
+        android:id="@+id/box_labyrinth"
+        style="@style/RecordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/box_labyrinth" />
+
+    <Button
+        android:id="@+id/tunnel_labyrinth"
+        style="@style/RecordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tunnel_labyrinth" />
+
+    <Button
+        android:id="@+id/mill_labyrinth"
+        style="@style/RecordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mill_labyrinth" />
+
+    <Button
+        android:id="@+id/room_labyrinth"
+        style="@style/RecordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/room_labyrinth" />
+
+    <Button
+        android:id="@+id/change_labyrinths"
+        style="@style/RecordsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_labyrinths" />
+
+</LinearLayout>
